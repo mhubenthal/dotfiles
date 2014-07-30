@@ -5,6 +5,7 @@
 " Basic Options
 syntax enable
 set number
+set tabstop=2
 
 " Resize splits when window is resized
 au VimResized * :wincmd =
