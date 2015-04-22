@@ -6,6 +6,7 @@
 syntax enable
 set number
 set tabstop=2
+set cursorline
 
 " Resize splits when window is resized
 au VimResized * :wincmd =
