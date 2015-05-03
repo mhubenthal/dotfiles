@@ -18,6 +18,11 @@ let mapleader = ","
 "Save current file
 nnoremap <leader>s :w<cr>
 
+"Turn off swap files
+set noswapfile
+set nobackup
+set nowb
+
 "Kill window with save
 nnoremap K :wq<cr>
 
